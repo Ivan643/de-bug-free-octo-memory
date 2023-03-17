@@ -1,0 +1,72 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css2? family= Big+Shoulders+Display:wght@700 & familia = Traje: peso @ 400; 700 y display=swap');;
+* {
+    box-sizing: border-box;
+}
+html, body {
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Outfit';
+    justify-content: center;
+    text-align: center;
+    background-color:lightgray;
+    margin: 0;
+  
+}
+/*QR-CODE*/
+
+article {
+    display: flex;
+    flex-flow: column nowrap;
+    max-height: 642px;
+    width: 78%;
+    max-width: 416px;
+    background-color:white;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: auto;
+    box-shadow: 0px 8px 15px -10px rgba(29, 29, 29, 0.541);
+    cursor: pointer;
+}
+
+.footer {
+    font-size: 11px;
+    text-align: center;
+}
+div.footer a {
+    text-decoration:none;
+}
+
+/*TEXTOS*/
+
+h1 {
+    font-weight: bolder;
+    font-size: min(5.3vw, 5.3vh,1.8rem);
+    margin: 0.75rem;
+   
+}
+ 
+p {
+  font-size: 15px;
+  color: gray;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+h1, p{
+    font-family: 'outfit', cursive;
+    
+}
+
+.footer {
+    font-size: 11px;
+    text-align: center;
+    font-weight: bolder;
+}
+div.footer a {
+    text-decoration:none;
+}
+
